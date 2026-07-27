@@ -26,8 +26,8 @@ High-performance Telegram bot for automated searching and aggregation of public 
 ### Quick Start
 1. **Clone repository:**
    ```bash
-   git clone https://github.com/Bargaisl/telegram-nickname-search-bot.git
-   cd telegram-nickname-search-bot
+   git clone https://github.com/Bargaisl/tg-nick-finder.git
+   cd tg-nick-finder
    ```
 2. **Set environment variables:**
    Create a `.env` file based on the template:
@@ -67,8 +67,8 @@ Licensed under the [MIT License](LICENSE).
 ### Быстрый запуск
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/Bargaisl/telegram-nickname-search-bot.git
-   cd telegram-nickname-search-bot
+   git clone https://github.com/Bargaisl/tg-nick-finder.git
+   cd tg-nick-finder
    ```
 2. **Настройте переменные окружения:**
    Создайте `.env` файл на базе примера и укажите ваш токен:
