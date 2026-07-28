@@ -9,6 +9,14 @@
 
 ## English Version
 
+### Bot OSINT Search Output Previews
+
+| WhatsMyName Module | Sherlock Module | Maigret Module |
+| :---: | :---: | :---: |
+| ![WhatsMyName Output](assets/search_wmn.png) | ![Sherlock Output](assets/search_sherlock.png) | ![Maigret Output](assets/search_maigret.png) |
+
+---
+
 ### Description
 High-performance Telegram bot for automated searching and aggregation of public information by usernames and accounts across online platforms.
 
@@ -22,6 +30,18 @@ High-performance Telegram bot for automated searching and aggregation of public 
 * **Networking & API:** `telebot` / `aiohttp` / `requests`
 * **Parsing:** `BeautifulSoup4`, `lxml`
 * **Infrastructure:** Docker Compose, PostgreSQL, Redis
+
+### Repository Structure
+```text
+├── bazanick6_3v1.py    # Main asynchronous Telegram bot logic
+├── assets/             # OSINT search module preview screenshots
+│   ├── search_wmn.png
+│   ├── search_sherlock.png
+│   └── search_maigret.png
+├── .gitignore          # Git ignore rules
+├── LICENSE             # MIT License
+└── README.md           # Documentation
+```
 
 ### Quick Start
 1. **Clone repository:**
@@ -50,6 +70,14 @@ Licensed under the [MIT License](LICENSE).
 
 ## Русская версия (Russian Version)
 
+### Примеры вывода OSINT-поиска бота
+
+| Модуль WhatsMyName | Модуль Sherlock | Модуль Maigret |
+| :---: | :---: | :---: |
+| ![Модуль WhatsMyName](assets/search_wmn.png) | ![Модуль Sherlock](assets/search_sherlock.png) | ![Модуль Maigret](assets/search_maigret.png) |
+
+---
+
 ### Описание
 Высокопроизводительный Telegram-бот для автоматизированного поиска и агрегации публичной информации по никнеймам и учетным записям в сети.
 
@@ -63,6 +91,18 @@ Licensed under the [MIT License](LICENSE).
 * **Сеть & API:** `telebot` / `aiohttp` / `requests`
 * **Парсинг:** `BeautifulSoup4`, `lxml`
 * **Инфраструктура:** Docker Compose, PostgreSQL, Redis
+
+### Структура репозитория
+```text
+├── bazanick6_3v1.py    # Основной модуль Telegram-бота
+├── assets/             # Скриншоты работы поисковых модулей OSINT
+│   ├── search_wmn.png
+│   ├── search_sherlock.png
+│   └── search_maigret.png
+├── .gitignore          # Исключения Git
+├── LICENSE             # Лицензия MIT
+└── README.md           # Техническая документация
+```
 
 ### Быстрый запуск
 1. **Клонируйте репозиторий:**
